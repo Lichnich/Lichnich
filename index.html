@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zitatgenerator</title>
+    <link rel="manifest" herf="manifest.json">
+    <style>
+        .background-dark {
+            background-color: #262626;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        .margin-top {
+            margin-top: 100px;
+        }
+        .zitat {
+            font-size: 30px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 200px;
+        }
+        .autor {
+        font-size: 40px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        }
+
+        .buttononehidden {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            opacity: 0;
+        }
+        .buttononeshown {
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .button {
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+            font-size: 30px;
+            background-color: rgb(220, 20, 60);
+            color: black;
+            border: none;
+            border-radius: 0.5rem;
+        }
+        .buttontwo {
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+            margin: auto;
+            margin-top: 40px;
+            font-size: 20px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: none;
+            border-radius: 0.5rem;
+        }
+        .button:hover {
+            background-color:darkred
+        }
+        .buttontwo:hover {
+            background-color: blanchedalmond;
+        }
+        .algincenter {
+            text-align: center;
+        }
+        .info {
+            color: white;
+            font-size: 50%;
+        }
+        .top {
+            margin-top: 7%;
+        }
+    
+
+    </style>
+
+    <script>
+        function buttonpressed(){
+        var random = Math.floor(Math.random() * 19) + 1;
+        var randomb = Math.floor(Math.random() * 16) + 1;
+        autorshow.innerHTML = "";
+
+
+        switch (random){
+            case 1:
+             zitatscript = "Eigentlich bin ich ganz anders - nur komm ich so selten dazu!";
+             orautorscript = "Tobias Gottesleben";
+             break;
+
+            case 2:
+             zitatscript = "Dumm wird man nicht, dumm bleibt man.";
+             orautorscript = "Esther Vilar";
+             break;
+
+             case 3:
+             zitatscript = "Ihr seid gar nicht so dumm, wie ihr ausseht.";
+             orautorscript = "Muhammad Ali";
+             break;
+
+             case 4:
+             zitatscript = "Dummheit ist auch eine natürliche Begabung.";
+             orautorscript = "Albert Einstein";
+             break;
+
+             case 5:
+             zitatscript = "Mit wie viel T schreibt man unschuldig?";
+             orautorscript = "Homer Simpson";
+             break;
+
+             case 6:
+             zitatscript = "Ich will ein Viertel, nicht nur ein Drittel mehr!";
+             orautorscript = "Horst Szymaniak";
+             break;
+
+             case 7:
+             zitatscript = "Geld ist nichts. Aber viel Geld, das ist etwas anderes.";
+             orautorscript = "George Bernard Shaw";
+             break;
+
+             case 8:
+             zitatscript = "Willst du den Charakter eines Menschen erkennen, so gib ihm Macht.";
+             orautorscript = "Robin Schenk";
+             break;
+
+             case 9:
+             zitatscript = "How much is the fish?";
+             orautorscript = "Scooter";
+             break;
+
+             case 10:
+             zitatscript = "Es ist gleich falsch Jedem, oder Keinem zu trauen.";
+             orautorscript = "Lucius Annaeus Seneca";
+             break;
+
+             case 11:
+             zitatscript = "Ich bin auf der Maus ausgerutscht.";
+             orautorscript = "Beatrix von Storchs";
+             break;
+
+             case 12:
+             zitatscript = "Das war ein versehen!";
+             orautorscript = "Christian Lindner";
+             break;
+
+             case 13:
+             zitatscript = "This isn't working.";
+             orautorscript = "Gabe Newell";
+             break;
+
+             case 14:
+             zitatscript = "Ein Spiel zu entwickeln ist sehr geldkostig!";
+             orautorscript = "Rendox10 (YT)";
+             break;
+
+             case 15:
+             zitatscript = "Kikerekie! Ein Huhn das Hamburger legt.";
+             orautorscript = "Boris Blocksberg";
+             break;
+
+             case 16:
+             zitatscript = "Es gibt viele Möglichkeiten, Karriere zu machen, aber die sicherste ist noch immer, in der richtigen Familie geboren zu werden.";
+             orautorscript = "Donald Trump";
+             break;
+
+             case 17:
+             zitatscript = "Können Sie glauben, dass ich ein Politiker bin? Sogar ich kann es nicht.";
+             orautorscript = "Donald Trump";
+             break;
+
+             case 18:
+             zitatscript = "Error 404! :C";
+             orautorscript = "MS. Teams wenn man versucht, sich im Browser zu verbinden";
+             break;
+
+             case 19:
+             zitatscript = "Atomwaffen?! Wenn wir sie besitzen, warum benutzen wir sie dann nicht?";
+             orautorscript = "Donald Trump";
+             break;   
+        }
+        
+        switch (randomb){
+            case 1:
+             autorscript = "Homer Simpson";
+             break;
+            
+            case 2:
+             autorscript = "Johann Wolfgang von Göthe";
+             break;
+
+             case 3:
+             autorscript = "Donald Trump";
+             break;
+
+             case 4:
+             autorscript = "Angela Merkel";
+             break;
+
+             case 5:
+             autorscript = "Anakin Skywalker";
+             break;
+
+             case 6:
+             autorscript = "Friedrig von Schiller";
+             break;
+
+             case 7:
+             autorscript = "William Shakespeare";
+             break;
+
+             case 8:
+             autorscript = "Captain Jack Sparrow";
+             break;
+
+             case 9:
+             autorscript = "Budha";
+             break;
+
+             case 10:
+             autorscript = "Das fliegende Spaghettimonster";
+             break;
+
+             case 11:
+             autorscript = "Barack Obama";
+             break;
+
+             case 12:
+             autorscript = "Albert Einstein";
+             break;
+
+             case 13:
+             autorscript = "Bibi Blocksberg";
+             break;
+
+             case 14:
+             autorscript = "Gabe Newell";
+             break;
+
+             case 15:
+             autorscript = "Marcell Davis";
+             break;
+
+             case 16:
+             autorscript = "Karl der Große";
+             break;
+        }
+        
+        zitatshow.innerHTML = zitatscript;
+        autorshow.innerHTML = autorscript;
+        
+    }
+    </script>
+
+</head>
+
+<body class="background-dark">
+    <div class="info">
+        Vorschläge für neue Zitate oder Autoren gerne über Netlify an den Entwickler.
+    </div>
+
+  <div class="center algincenter zitat top" id="zitatshow">
+    Der Zitate Generator! - Zufällig generierte Zitate mit zufälligen Autoren, jetzt und umsonst!
+    </div>
+
+  <div class="center algincenter margin-top autor" id="autorshow">Drücke den Knopf für ein Zitat
+    </div>
+<a>
+    <button onclick="buttonpressed()" class="button">
+            Zitat bidde!
+    </button>
+    <button onclick="buttontwopressed()" class="buttontwo">
+        Original Autor anzeigen
+</button>
+
+<script>
+    function buttontwopressed(){
+    autorshow.innerHTML = orautorscript;
+    }
+</script>
+</a>
+</body>
+</html>

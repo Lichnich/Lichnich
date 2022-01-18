@@ -1,0 +1,10 @@
+{
+    "name": "Zitat Generator",
+    "short_name": "ZitatGen",
+    "theme_color": "#422442",
+    "background_color": "#262626",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }
