@@ -4,7 +4,4 @@
 - 🌱 I’m currently learning Javascript.
 - I'm currently developing some fun sites to learn the basic commands for different programming languages.
 
-<!---
-Lichnich/Lichnich is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+You can see hy work here: https://app.netlify.com/teams/lichnich/overview
