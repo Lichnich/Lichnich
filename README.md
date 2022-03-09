@@ -4,4 +4,8 @@
 - 🌱 I’m currently learning Javascript.
 - I'm currently developing some fun sites to learn the basic commands for different programming languages.
 
-You can see hy work here: https://app.netlify.com/teams/lichnich/overview
+You can see hy work here: 
+
+https://dontpressthisbutton.netlify.app/
+
+https://zitatgen.netlify.app/
