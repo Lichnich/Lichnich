@@ -6,6 +6,4 @@
 
 You can see hy work here: 
 
-https://dontpressthisbutton.netlify.app/
-
-https://zitatgen.netlify.app/
+https://lichthings.netlify.app/
